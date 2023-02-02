@@ -36,7 +36,7 @@ body{
 
 @media (max-width: 600px) { 
     .container-principal{
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -87,7 +87,7 @@ body{
 .tarea{
     width: 100%;
     min-height: 50rem;
-    padding: 0 2rem;
+    padding: 0 3rem;
     display: flex;
     flex-direction: column;
     overflow: hidden;
