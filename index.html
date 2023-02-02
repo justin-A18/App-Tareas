@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ICON -->
+    <link rel="shortcut icon" href="./icon/icon.svg" type="image/x-icon">    
+
+    <!-- TITLE -->
+    <title>App Tareas</title>
+
+    <!-- ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+<body>
+
+    <main class="container-principal">
+
+        <!-- CONTENIDO DE LA FECHA -->
+        
+        <header class="header">
+            <div class="fecha">
+                <div class="fecha-content">
+                    <p class="day" id="day-number"></p>
+        
+                    <div class="month-year">
+                        <p class="mes" id="month"></p>
+            
+                        <p class="anho" id="year"></p>
+                    </div>
+                </div>
+        
+                <p class="week" id="day-week"></p>
+            </div>
+        </header>
+        
+            <!-- CONTENIDO TAREAS -->
+        
+        <section class="tarea">
+            <div class="tarea__insertar">
+                <!-- INSERTAR TAREA -->
+                <input class="input" type="text" id="tarea" placeholder="Nueva tarea">
+        
+                <!-- BTN AGREGAR -->
+                <i class='icon bx bx-plus bx-lg' id="agregar"></i>
+        
+                <!-- BTN ORDENAR -->
+                <button class="btn-ordenar">Ordenar</button>
+            </div>
+        
+            <!-- ALMACENAR LISTA DE TAREAS -->
+        
+            <ul class="tarea__list" id="list"></ul>
+
+        </section>
+    </main>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
